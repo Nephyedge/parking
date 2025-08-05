@@ -1,7 +1,0 @@
-streamlit
-opencv-python
-numpy
-keras
-tensorflow
-azure-storage-blob
-pillow
