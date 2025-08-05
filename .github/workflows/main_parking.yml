@@ -58,9 +58,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_917D5F87ED8945CC8AADB60A9183DE0F }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_7265CE7933E34596B9CEB12908EB50A5 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_554213ACB0874B5B8A6114B4545FF565 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_A3C4D8D32A214735A4147C6965495598 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_C197B432692E416BA09B05A387E2D8EA }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_94FA035A57174C3AB0682EE2B0BBCB5C }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -68,5 +68,4 @@ jobs:
         with:
           app-name: 'parking'
           slot-name: 'Production'
-
           
